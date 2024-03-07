@@ -1,0 +1,65 @@
+body {
+  background-color: #ced4da;
+  color: rgb(12, 8, 8); /* Optional: Change text color to white for better readability */
+  min-height: 100vh; /* Set minimum height to fill the screen */
+  position: relative; /* Ensure footer stays at the bottom of the page */
+  margin-bottom: -100px; /* Negative margin to pull the content up */
+}
+
+.footer {
+  position: absolute; /* Position at the bottom of the page */
+  width: 100%; /* Full width */
+  height: 100px; /* Height of the footer */
+  background-color: #343a40; /* Footer background color */
+  color: white; /* Footer text color */
+  text-align: center; /* Center-align text */
+  line-height: 100px; /* Vertically center text */
+}
+
+.weather-info {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* text-align: center; */
+}
+
+.day-forecast {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.forecast-item {
+  border-bottom: 1px solid #ccc;
+  padding: 16px;
+}
+
+.forecast-info {
+  display: flex;
+  justify-content: space-around; /* Adjust spacing between cards */
+  flex-wrap: nowrap; /* Ensure all cards stay in one row */
+}
+
+.forecast-card {
+  flex: 0 1 16%; /* Limit the width of each card to fit 6 cards in a row */
+  margin-bottom: 20px; /* Adjust spacing between rows */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+h3 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+
